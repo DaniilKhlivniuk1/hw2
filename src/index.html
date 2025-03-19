@@ -1,12 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
-    <title>My First Parcel App</title>
-    <link rel="stylesheet" href="./style.css" />
-    <script type="module" src="./app.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1>My Todo List</h1>
+    <ul id="task-list"></ul>
+    <form id="task-form">
+      <input type="text" id="task-input" placeholder="New task" required />
+      <button type="submit">Add Task</button>
+    </form>
+
+    <script type="module" src="./app.js"></script>
   </body>
 </html>
